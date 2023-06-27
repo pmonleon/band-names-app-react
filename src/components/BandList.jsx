@@ -8,7 +8,7 @@ export const BandList = () => {
 
     useEffect(() => {
         socket.on('current-bands', (bands) => {
-            console.log({bands})
+          //  console.log({bands})
             setBands( bands );
         })
         return () => socket.off('current-bands');
