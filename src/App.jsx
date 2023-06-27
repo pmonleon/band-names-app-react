@@ -4,7 +4,6 @@ import HomePage from './pages/HomePage'
 
 
 const BandNamesApp = () => {
-  
     return (
         <SocketProvider>
             <HomePage />
